@@ -28,9 +28,7 @@ export const SearchForm = ({ onSubmit }) => {
         required
         onChange={handleSelect}
       >
-        <option disabled defaultValue="">
-          Select a region and press enter
-        </option>
+        <option value="">Select a region and press enter</option>
         <option value="africa">Africa</option>
         <option value="america">America</option>
         <option value="asia">Asia</option>
