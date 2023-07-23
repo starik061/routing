@@ -93,7 +93,7 @@ export const GridItem = styled.li`
   transition: transform 0.5s ${props => props.theme.animations.cubicBezier};
 
   overflow: hidden;
-  cursor: zoom-in;
+  cursor: pointer;
 
   &:hover,
   &:focus {
